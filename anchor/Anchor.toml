@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-pdacreator = "DzUEHk2zpTwMgZkMpLQczo8XiprTrWmbi196ij8RMH5Z"
+pdacreator = "5HPgLUD3cPwHJ8FmTLXM5nkxnqQTceMebefLzHZXqr2x"
 
 [registry]
 url = "https://api.apr.dev"

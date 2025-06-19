@@ -16,7 +16,7 @@ import {
 import { type ParsedGreetInstruction } from '../instructions';
 
 export const PDACREATOR_PROGRAM_ADDRESS =
-  'JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H' as Address<'JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H'>;
+  '5HPgLUD3cPwHJ8FmTLXM5nkxnqQTceMebefLzHZXqr2x' as Address<'5HPgLUD3cPwHJ8FmTLXM5nkxnqQTceMebefLzHZXqr2x'>;
 
 export enum PdacreatorInstruction {
   Greet,
@@ -43,7 +43,7 @@ export function identifyPdacreatorInstruction(
 }
 
 export type ParsedPdacreatorInstruction<
-  TProgram extends string = 'JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H',
+  TProgram extends string = '5HPgLUD3cPwHJ8FmTLXM5nkxnqQTceMebefLzHZXqr2x',
 > = {
   instructionType: PdacreatorInstruction.Greet;
 } & ParsedGreetInstruction<TProgram>;

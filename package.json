@@ -4,7 +4,7 @@
     "anchor": "cd anchor && anchor",
     "anchor-build": "cd anchor && anchor build",
     "anchor-client": "esrun ./anchor/src/generate-client.ts",
-    "anchor-localnet": "cd anchor && anchor localnet",
+    "anchor-localnet": "cd anchor && anchor localnet", 
     "anchor-test": "cd anchor && anchor test",
     "build": "next build",
     "codama:js": "codama run -c ./anchor/codama.js js",
@@ -69,6 +69,7 @@
     "jest": "^30.0.0",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.1.10",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3",
     "ws": "^8.18.2"
   }

@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("DzUEHk2zpTwMgZkMpLQczo8XiprTrWmbi196ij8RMH5Z");
+declare_id!("5HPgLUD3cPwHJ8FmTLXM5nkxnqQTceMebefLzHZXqr2x");
 
 #[program]
 pub mod pdacreator {
@@ -14,3 +14,13 @@ pub mod pdacreator {
 
 #[derive(Accounts)]
 pub struct Initialize {}
+
+#[account]
+pub struct PdaCreator {
+    pub authority: Pubkey,
+    pub pda: Pubkey,
+    pub bump: u8,
+}
+
+#[derive(Accounts)]
+pub struct CreatePda {}
